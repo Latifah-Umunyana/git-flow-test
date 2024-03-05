@@ -1,0 +1,61 @@
+
+/* style for navigation */
+#bars{
+   float: left;
+   display: flex;
+   padding: 30px;
+   font-size:20px;
+gap: 20px;
+}
+
+/* styling for letter "0" color */
+#orange{
+   color: orangered;
+}
+
+/* style for navbars contents */
+#navbar{
+   display: flex;
+}
+
+/* styling for headline */
+#heading{
+   font-size: 45px;
+}
+/* search styles */
+.search input[type=text] {
+   width: 150px;
+   height: 15px;
+   border-radius: 15px;
+   border: 1px gray solid;
+   padding: 5px;
+}
+/* styling search bars and button together */
+#searchbar{
+display: flex;
+gap: 15px;
+}
+/* button style */
+#button{
+ border-radius: 0px 5px 5px 0px;
+background-color: red;
+color: white;
+border-color: red;
+width: 13%;
+}
+/* styling images in recent research */
+#images{
+   display: flex;
+   gap: 5px;
+}
+/* body styling for feature-one */
+#body{ 
+  position: absolute;
+  padding: 10px 10px 10px 80px  ;
+  border-radius: 50px;
+  margin: 5% 30%;
+}
+#last{
+    display: flex;
+    gap: 5px;
+}
