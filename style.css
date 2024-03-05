@@ -1,0 +1,80 @@
+#container{
+    display: block;
+    
+
+}
+#slack{
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 61);
+    width: 99%;
+    height: 88%;
+}
+.slack{
+    height: 20%;
+    width: 15%;
+    size: 30%;
+}
+.sla{
+    color: white;
+}
+#k{
+    color: white;
+    text-align: right;
+}
+.word{
+    color: white;
+}
+
+#google{
+    width: 99%;
+    height: 88%;
+}
+.google{
+    height: 10%;
+    width: 5%;
+    size: 10%;
+
+}
+#indeed{
+    width: 99%;
+    height: 88%;
+}
+.indeed{
+    height: 15%;
+    width: 10%;
+    size: 20%;
+}
+.in{
+    text-align: top right;
+}
+#paypal{
+    width: 99%;
+    border-radius: 10px;
+    height: 68%;
+    padding: 10px 10px 40px 3px;
+}
+.paypal{
+    height: 20%;
+    width: 20%;
+    size: 30%;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows:table-row;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 6px;
+    grid-column-gap: 30px;
+    padding: 20px 200px 250px 20px;
+    align-content: space-around;
+    margin-bottom: 0%;
+    position: fixed;
+    
+}
+.par{
+    text-align: right;
+}
+.last{
+    text-align-last: right;
+}
